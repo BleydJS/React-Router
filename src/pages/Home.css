@@ -1,0 +1,15 @@
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;            /*quebrar linhas se for necessario*/
+  }
+  
+  .products li {
+    border: 1px solid #efefef;      /*cada item individual vai ter uma borda de 1px*/
+    border-radius: 5px;                 /*arredondamento das bordas*/
+    padding: 10px;                      /*espaçamento dos textos da borda*/
+    text-align: center;
+    list-style: none;          /*tirar o bullet da li (bolinhas)*/ 
+    margin: 0 10px;             /*afastar os itens no eixo horizontal*/
+    width: 25%;                 /*largura de 25% para cada produto*/
+  }
